@@ -1,0 +1,7 @@
+[
+  { path: 'home', component: HomeComponent },
+  { path: 'surprise', component: HomeComponent },
+  { path: 'not-found', component: DogComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '**', redirectTo: 'not-found', pathMatch: 'full' },
+]

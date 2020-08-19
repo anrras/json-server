@@ -3,7 +3,7 @@
     { "path": "home", "component": "DogComponent" },
     { "path": "'surprise'", "component": "DogComponent" },
     { "path": "'not-found'", "component": "DogComponent" },
-    { "path": "", "redirectTo": "'home'", "pathMatch": "'full'" },
-    { "path": "'**'", "redirectTo": "'not-found'", "pathMatch": "'full'" }
+    { "path": "", "redirectTo": "'home'", "pathMatch": "full" },
+    { "path": "'**'", "redirectTo": "'not-found'", "pathMatch": "full" }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "routes": [
     { "path": "home", "component": "HomeComponent" },
-    { "path": "surprise", "component": "DogComponent" },
+    { "path": "surprise", "component": "NotFoundComponent" },
     { "path": "not-found", "component": "DogComponent" },
     { "path": "", "redirectTo": "home", "pathMatch": "full" },
     { "path": "'**'", "redirectTo": "not-found", "pathMatch": "full" }
